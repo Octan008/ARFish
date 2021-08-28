@@ -1,0 +1,758 @@
+[info ]: 使用するAviutl.exeのあるフォルダを指定し、
+[info ]: 「次へ」をクリックしてください。
+[info ]: 
+[info ]: 以下のもののインストールを行います。
+[info ]: ・x264guiEx
+[info ]: ・x264
+[info ]: ・qaac
+[info ]: ・L-SMASH (remuxer, muxer等)
+[debug]: Init():イベント "AUOSETUP_EVENT_ABORT_18304"を監視開始
+[info ]: Aviutlフォルダ: "C:\Users\junio\Desktop\aviutl110" にインストールします...
+[debug]: searchFileExceptInstallDir():[0]
+[debug]: Init():auoSetup設定
+[debug]: auoSetup build     Dec 23 2019 20:44:44
+[debug]: OS Version:        Windows 10 x64 (0)
+[debug]: current dir:       C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]: clr ver (build):   v4.0.30319
+[debug]: clr ver (runtime): v4.0.30319
+[debug]: 
+[debug]: auoSetup:          C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\auoSetup.exe
+[debug]: installName:       x264guiEx.auo
+[debug]: AviutlDir:         C:\Users\junio\Desktop\aviutl110
+[debug]: bAviutlExists:     False
+[debug]: PluginsDir:        C:\Users\junio\Desktop\aviutl110
+[debug]: DownloadTmpDir:    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]: bUpdateOverwrite:  False
+[debug]: bInstallX264:      True
+[debug]: nInstallX265:      0
+[debug]: bInstallNero:      False
+[debug]: bInstallQaac:      True
+[debug]: _appledll:         True
+[debug]: bInstallLsmash:    True
+[debug]: bInstallStg:       True
+[debug]: nInstallIni:       1
+[debug]: bInstallAuo:       True
+[debug]: autoRun:           False
+[debug]: autoUpdateIni:     True
+[debug]: autoUpdateStg:     True
+[debug]: updateOverwrite:   False
+[debug]: 
+[debug]: auoSetup Dir [C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup]
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\7z.dll
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\7z.exe
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\auoSetup.exe
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\auoSetup_log_x264guiEx_2020.02.07.140425.txt
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\check_vc.dll
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\setup.ini
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\licence\7z\License.txt
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\licence\L-SMASH\LICENSE
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\licence\libcurl\LICENSE-MIXING
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\licence\libcurl\README
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\licence\x264\COPYING
+[debug]:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\licence\x264\x264.txt
+[debug]: 
+[debug]: AviutlDir [C:\Users\junio\Desktop\aviutl110]
+[debug]:   C:\Users\junio\Desktop\aviutl110\aviutl.exe
+[debug]:   C:\Users\junio\Desktop\aviutl110\aviutl.ini
+[debug]:   C:\Users\junio\Desktop\aviutl110\aviutl.sav
+[debug]:   C:\Users\junio\Desktop\aviutl110\aviutl.txt
+[debug]:   C:\Users\junio\Desktop\aviutl110\デフォルト.cfg
+[debug]: checkIfAppleDLLRequired():exeDir = C:\Users\junio\Desktop\aviutl110\exe_files): QAAC_APPLEDLL_UNAVAILABLE
+[debug]: Init():qtmode: QAAC_APPLEDLL_UNAVAILABLE
+[debug]: x264::init():
+[debug]:   aviutlDir:        C:\Users\junio\Desktop\aviutl110
+[debug]:   pluginsDir:       C:\Users\junio\Desktop\aviutl110
+[debug]:   downloadTmpDir:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]:   bAviutlExists:    False
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [x264]
+[debug]: qaac::init():
+[debug]:   aviutlDir:        C:\Users\junio\Desktop\aviutl110
+[debug]:   pluginsDir:       C:\Users\junio\Desktop\aviutl110
+[debug]:   downloadTmpDir:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]:   bAviutlExists:    False
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [qaac]
+[debug]: appledll::init():
+[debug]:   aviutlDir:        C:\Users\junio\Desktop\aviutl110
+[debug]:   pluginsDir:       C:\Users\junio\Desktop\aviutl110
+[debug]:   downloadTmpDir:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]:   bAviutlExists:    False
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [appledll]
+[debug]: l-smash::init():
+[debug]:   aviutlDir:        C:\Users\junio\Desktop\aviutl110
+[debug]:   pluginsDir:       C:\Users\junio\Desktop\aviutl110
+[debug]:   downloadTmpDir:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]:   bAviutlExists:    False
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [l-smash]
+[debug]: auo::init():
+[debug]:   aviutlDir:        C:\Users\junio\Desktop\aviutl110
+[debug]:   pluginsDir:       C:\Users\junio\Desktop\aviutl110
+[debug]:   downloadTmpDir:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]:   bAviutlExists:    False
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [auo]
+[debug]: ini::init():
+[debug]:   aviutlDir:        C:\Users\junio\Desktop\aviutl110
+[debug]:   pluginsDir:       C:\Users\junio\Desktop\aviutl110
+[debug]:   downloadTmpDir:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]:   bAviutlExists:    False
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [ini]
+[debug]: stg::init():
+[debug]:   aviutlDir:        C:\Users\junio\Desktop\aviutl110
+[debug]:   pluginsDir:       C:\Users\junio\Desktop\aviutl110
+[debug]:   downloadTmpDir:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]:   bAviutlExists:    False
+[debug]:   bUpdateOverwrite: False
+[debug]: Init():installer->init() [stg]
+[debug]: install_start():
+[debug]: install():
+[debug]: x264::runAsync():
+[debug]: install():installer->runAsync() [x264]
+[debug]: x264::searchForUserDownloadedFile():x264
+[debug]: qaac::runAsync():
+[debug]: qaac::searchForUserDownloadedFile():qaac
+[debug]: install():installer->runAsync() [qaac]
+[debug]: appledll::runAsync():
+[debug]: x264::searchForUserDownloadedFile():cadidates: 0
+[debug]: qaac::searchForUserDownloadedFile():cadidates: 0
+[debug]: appledll::check_set_param():
+[debug]: install():installer->runAsync() [appledll]
+[debug]: qaac::check_set_param():
+[debug]: x264::check_set_param():
+[debug]: appledll::check_set_param():latestCheckUrl: https://www.videohelp.com/software/iTunes/old-versions
+[debug]: l-smash::runAsync():
+[debug]: l-smash::searchForUserDownloadedFile():l-smash
+[debug]: qaac::run():random_offset: 0
+[debug]: x264::check_set_param():currentFileFullPath: 
+[debug]: appledll::run():random_offset: 0
+[debug]: install():installer->runAsync() [l-smash]
+[debug]: qaac::run():urlId: 0/1
+[debug]: x264::check_set_param():latestCheckUrlList[1](id = 0, urlIdMapping = 1): https://onedrive.live.com/download?resid=6BDD4375AC8933C6!4484&authkey=!ABJHFkrCepS7euQ&ithint=file%2ctxt
+[debug]: l-smash::searchForUserDownloadedFile():cadidates: 0
+[debug]: appledll::run():urlId: 0/1
+[debug]: auo::runAsync():
+[debug]: auo::run():ダウンロードは必要ありません。
+[debug]: x264::check_set_param():latestCheckUrlList[2](id = 1, urlIdMapping = 2): https://www.dropbox.com/s/430qrgxyiit3s0h/latest_build.txt?dl=1
+[debug]: qaac::check():urlId: 0
+[debug]: appledll::check():urlId: 0
+[debug]: l-smash::check_set_param():
+[debug]: install():installer->runAsync() [auo]
+[debug]: x264::check_set_param():latestCheckUrlList[3](id = 2, urlIdMapping = 3): https://drive.google.com/uc?export=download&id=0BzA4dIFteM2dWUp0OE10ZXpYREU
+[debug]: l-smash::check_set_param():currentFileFullPath: 
+[debug]: qaac::getMesBaseUrl():url[0]:https://sites.google.com/site/qaacpage/cabinet/
+[debug]: appledll::getMesBaseUrl():url[0]:https://www.videohelp.com/software/iTunes/old-versions
+[debug]: ini::runAsync():
+[debug]: ini::run():ダウンロードは必要ありません。
+[debug]: x264::check_set_param():nInstall = True
+[debug]: l-smash::check_set_param():latestCheckUrlList[1](id = 0): https://onedrive.live.com/download?resid=6BDD4375AC8933C6!4437&authkey=!AMidqXDZOeJtv4g&ithint=file%2ctxt
+[debug]: install():installer->runAsync() [ini]
+[debug]: x264::run():random_offset: 1
+[debug]: l-smash::check_set_param():latestCheckUrlList[2](id = 1): https://www.dropbox.com/s/f7knxwnjvispv7i/latest_build.txt?dl=1
+[debug]: stg::runAsync():
+[debug]: stg::run():ダウンロードは必要ありません。
+[debug]: x264::run():urlId: 1/3
+[debug]: l-smash::check_set_param():latestCheckUrlList[3](id = 2): https://drive.google.com/uc?export=download&id=0BzA4dIFteM2dVHJDRk9rSlE1X0E
+[debug]: install():installer->runAsync() [stg]
+[debug]: x264::check():urlId: 1
+[debug]: l-smash::run():random_offset: 1
+[debug]: x264::getMesBaseUrl():url[1]:https://www.dropbox.com/s/430qrgxyiit3s0h/latest_build.txt?dl=1
+[debug]: l-smash::run():urlId: 1/3
+[debug]: l-smash::check():urlId: 1
+[debug]: l-smash::getMesBaseUrl():url[1]:https://www.dropbox.com/s/f7knxwnjvispv7i/latest_build.txt?dl=1
+[debug]: x264::getMesBaseUrl():downloader.download(): status: RES_FIN
+[debug]: x264::getUrlVer():urlId: 1, urlText: 2988
+[info ]: x264のダウンロードリンクを取得完了
+[debug]: x264::getUrlVer():latestDownloadUrl: https://www.dropbox.com/s/cvwxbf65kn80ejg/x264_latest_x64.zip?dl=1
+[debug]: x264::getMesBaseUrl():getUrlVer(urlId = 1): latestVer: r2988
+[debug]: x264::download():downloadedByUser:False
+[debug]: x264::setFilename():filename: x264*.exe
+[debug]: x264::setDownloadName():downloadName: x264_r2988.zip
+[debug]: x264::downloadFile():
+[debug]:   downloadTargetName: x264 r2988
+[debug]:   downloadUrl:        https://www.dropbox.com/s/cvwxbf65kn80ejg/x264_latest_x64.zip?dl=1
+[debug]:   downloadFilename:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\x264_r2988.zip
+[debug]: l-smash::getMesBaseUrl():downloader.download(): status: RES_FIN
+[debug]: l-smash::getUrlVer():urlId: 1, urlText: 1476 
+[debug]: l-smash::getUrlVer():latestDownloadUrl: https://www.dropbox.com/s/23oqjx7esbzftrc/L-SMASH%20latest.zip
+[debug]: l-smash::getMesBaseUrl():getUrlVer(urlId = 1): latestVer: r1476
+[debug]: l-smash::download():downloadedByUser:False
+[debug]: l-smash::setFilename():filename: l-smash r1476
+[debug]: l-smash::setDownloadName():downloadName: l-smash r1476.zip
+[debug]: l-smash::downloadFile():
+[debug]:   downloadTargetName: l-smash r1476
+[debug]:   downloadUrl:        https://www.dropbox.com/s/23oqjx7esbzftrc/L-SMASH%20latest.zip
+[debug]:   downloadFilename:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\l-smash r1476.zip
+[debug]: qaac::getMesBaseUrl():downloader.download(): status: RES_FIN
+[debug]: qaac::getUrlVer():findUrl: https://sites.google.com/site/qaacpage/cabinet/qaac_%{rev}.zip?attredirects=0&amp;d=1
+[debug]: qaac::getUrlVer():baseUrl: https://sites.google.com/site/qaacpage/cabinet/
+[debug]: qaac::getUrlVer():revString: 2.68
+[debug]: qaac::getUrlVer():revArray: 2.68
+[debug]: qaac::getMesBaseUrl():getUrlVer(urlId = 0): latestVer: 2.68
+[debug]: qaac::download():downloadedByUser:False
+[debug]: qaac::setFilename():filename: qaac*.exe
+[debug]: qaac::setDownloadName():downloadName: qaac_2.68.zip
+[debug]: qaac::downloadFile():
+[debug]:   downloadTargetName: qaac 2.68
+[debug]:   downloadUrl:        https://sites.google.com/site/qaacpage/cabinet/qaac_2.68.zip?attredirects=0&amp;d=1
+[debug]:   downloadFilename:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac_2.68.zip
+[debug]: x264::downloadFile():downloader.download(): status: RES_FIN
+[debug]: x264::decompress():
+[debug]: x264::decompress():downloadName: x264_r2988.zip
+[debug]: x264::decompress():extractDir:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\x264
+[debug]: x264::unzip():zipFile: x264_r2988.zip, outDir: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\x264
+[info ]: x264を解凍完了
+[debug]: install():installer->run_wait() [x264]
+[debug]: l-smash::downloadFile():downloader.download(): status: RES_FIN
+[debug]: l-smash::decompress():
+[debug]: l-smash::decompress():downloadName: l-smash r1476.zip
+[debug]: l-smash::decompress():extractDir:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\l-smash
+[debug]: l-smash::unzip():zipFile: l-smash r1476.zip, outDir: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\l-smash
+[info ]: l-smashを解凍完了
+[debug]: appledll::getMesBaseUrl():downloader.download(): status: RES_FIN
+[debug]: appledll::getUrlVer():urlText Length = 154367, mc->Count = 430
+[debug]: appledll::getUrlVer():url2ndStep: https://www.videohelp.com/download/iTunesSetup12.10.4.exe
+[debug]: qaac::downloadFile():downloader.download(): status: RES_FIN
+[debug]: qaac::decompress():
+[debug]: qaac::decompress():downloadName: qaac_2.68.zip
+[debug]: qaac::decompress():extractDir:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac
+[debug]: qaac::unzip():zipFile: qaac_2.68.zip, outDir: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac
+[info ]: qaacを解凍完了
+[debug]: install():installer->run_wait() [qaac]
+[debug]: appledll::getUrlVer():downloader.download(): status: RES_FIN
+[debug]: appledll::getUrlVer():urlText Length = 154367, mc->Count = 249
+[debug]: appledll::getUrlVer():latestDownloadUrl: https://www.videohelp.com/download/iTunesSetup12.10.4.exe?r=CsKqQVZZ
+[debug]: appledll::getQaacITunesMakePortable():
+[info ]: qaac用のappledll抽出の準備を行います...
+[debug]: appledll::downloadSmallFile():targetMes:        appledll抽出スクリプト
+[debug]: appledll::downloadSmallFile():downloadUrl:      https://sites.google.com/site/qaacpage/cabinet/makeportable.zip?attredirects=0&amp;d=1
+[debug]: appledll::downloadSmallFile():downloadFilename: makeportable.zip
+[debug]: appledll::downloadSmallFile():downloader.download(): status: RES_FIN
+[debug]: appledll::getMesBaseUrl():getUrlVer(urlId = 0): latestVer: 
+[debug]: appledll::download():downloadedByUser:False
+[debug]: appledll::setFilename():filename: iTunesSetup.exe
+[debug]: appledll::setDownloadName():downloadName: iTunesSetup.exe
+[debug]: appledll::downloadFile():
+[debug]:   downloadTargetName: appledll 
+[debug]:   downloadUrl:        https://www.videohelp.com/download/iTunesSetup12.10.4.exe?r=CsKqQVZZ
+[debug]:   downloadFilename:   C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\iTunesSetup.exe
+[debug]: appledll::downloadFile():downloader.download(): status: RES_FIN
+[debug]: appledll::decompress():
+[debug]: install():installer->run_wait() [appledll]
+[debug]: install():installer->run_wait() [l-smash]
+[debug]: install():installer->run_wait() [auo]
+[debug]: install():installer->run_wait() [ini]
+[debug]: install():installer->run_wait() [stg]
+[debug]: install():installer->getDownloadResult() [x264]: OK
+[debug]: install():installer->getDownloadResult() [qaac]: OK
+[debug]: install():installer->getDownloadResult() [appledll]: OK
+[debug]: install():installer->getDownloadResult() [l-smash]: OK
+[debug]: install():installer->getDownloadResult() [auo]: OK
+[debug]: install():installer->getDownloadResult() [ini]: OK
+[debug]: install():installer->getDownloadResult() [stg]: OK
+[debug]: install():installer->getDownloadResult() [overall]: OK
+[info ]: インストール中...
+[debug]: x264::install_process():exeDir: C:\Users\junio\Desktop\aviutl110\exe_files
+[debug]: x264::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\x264
+[debug]:   searchOption:          x264*.exe
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             _
+[debug]:   revStr:                r2988
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: x264::install_dir():    Directory::CreateDirectory(): C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]: x264::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\x264\x264_2984_x64.exe -> C:\Users\junio\Desktop\aviutl110\exe_files\x264_2984_x64.exe, overwrite=True
+[info ]: exe_files\x264_2984_x64.exe
+[debug]: x264::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\x264\x264_2988_x64.exe -> C:\Users\junio\Desktop\aviutl110\exe_files\x264_2988_x64.exe, overwrite=True
+[info ]: exe_files\x264_2988_x64.exe
+[debug]: x264::install():install_process()True
+[debug]: install():installer->install() [x264]: OK
+[debug]: qaac::extract_dll_from_qt_installer():start
+[debug]: qaac::extract_dll_from_qt_installer():dirMakePortable: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable
+[debug]: qaac::unzip():zipFile: makeportable.zip, outDir: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable
+[info ]: makeportableを解凍完了
+[debug]: qaac::extract_dll_from_qt_installer():makeportableを展開完了
+[debug]: qaac::extract_dll_from_qt_installer():batFile:     C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\makeportable.cmd
+[debug]: qaac::extract_dll_from_qt_installer():dirBatch:    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable
+[debug]: qaac::extract_dll_from_qt_installer():dirappledll: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles
+[debug]: qaac::extract_dll_from_qt_installer():file copy: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\7z.dll -> C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\7z.dll
+[debug]: qaac::extract_dll_from_qt_installer():file copy: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\7z.exe -> C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\7z.exe
+[debug]: qaac::runExe():C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\makeportable.cmd C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\iTunesSetup.exe
+[debug]: qaac::extract_dll_from_qt_installer():appledllの展開完了
+[debug]: qaac::install_process():appledll抽出スクリプトを実行終了
+[debug]: qaac::install_process():exeDir: C:\Users\junio\Desktop\aviutl110\exe_files
+[debug]: qaac::install_process():Directory::Delete: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68\x64 (x64用バイナリの入ったフォルダはここでは使用しないのであらかじめ削除)
+[debug]: qaac::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac
+[debug]:   searchOption:          qaac*.exe
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             _
+[debug]:   revStr:                2.68
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: qaac::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68
+[debug]:   searchOption:          qaac*.exe
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             _
+[debug]:   revStr:                2.68
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: qaac::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68\x86
+[debug]:   searchOption:          qaac*.exe
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             _
+[debug]:   revStr:                2.68
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68\x86\qaac.exe -> C:\Users\junio\Desktop\aviutl110\exe_files\qaac.exe, overwrite=True
+[info ]: exe_files\qaac.exe
+[debug]: qaac::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac
+[debug]:   searchOption:          refalac*.exe
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             _
+[debug]:   revStr:                2.68
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: qaac::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68
+[debug]:   searchOption:          refalac*.exe
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             _
+[debug]:   revStr:                2.68
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: qaac::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68\x86
+[debug]:   searchOption:          refalac*.exe
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             _
+[debug]:   revStr:                2.68
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68\x86\refalac.exe -> C:\Users\junio\Desktop\aviutl110\exe_files\refalac.exe, overwrite=True
+[info ]: exe_files\refalac.exe
+[debug]: qaac::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac
+[debug]:   searchOption:          *.dll
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: qaac::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68
+[debug]:   searchOption:          *.dll
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: qaac::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68\x86
+[debug]:   searchOption:          *.dll
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68\x86\libsoxconvolver.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\libsoxconvolver.dll, overwrite=True
+[info ]: exe_files\libsoxconvolver.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac\qaac_2.68\x86\libsoxr.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\libsoxr.dll, overwrite=True
+[info ]: exe_files\libsoxr.dll
+[debug]: qaac::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles
+[debug]:   searchOption:          *.*
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\ASL.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\ASL.dll, overwrite=True
+[info ]: exe_files\ASL.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\CoreAudioToolbox.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\CoreAudioToolbox.dll, overwrite=True
+[info ]: exe_files\CoreAudioToolbox.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\CoreFoundation.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\CoreFoundation.dll, overwrite=True
+[info ]: exe_files\CoreFoundation.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\icudt62.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\icudt62.dll, overwrite=True
+[info ]: exe_files\icudt62.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\libdispatch.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\libdispatch.dll, overwrite=True
+[info ]: exe_files\libdispatch.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\libicuin.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\libicuin.dll, overwrite=True
+[info ]: exe_files\libicuin.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\libicuuc.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\libicuuc.dll, overwrite=True
+[info ]: exe_files\libicuuc.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\msvcp100.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\msvcp100.dll, overwrite=True
+[info ]: exe_files\msvcp100.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\msvcp140.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\msvcp140.dll, overwrite=True
+[info ]: exe_files\msvcp140.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\msvcr100.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\msvcr100.dll, overwrite=True
+[info ]: exe_files\msvcr100.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\objc.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\objc.dll, overwrite=True
+[info ]: exe_files\objc.dll
+[debug]: qaac::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles\vcruntime140.dll -> C:\Users\junio\Desktop\aviutl110\exe_files\vcruntime140.dll, overwrite=True
+[info ]: exe_files\vcruntime140.dll
+[debug]: qaac::install():install_process()True
+[debug]: install():installer->install() [qaac]: OK
+[debug]: appledll::install():install_process()True
+[debug]: install():installer->install() [appledll]: OK
+[debug]: l-smash::install_process():exeDir: C:\Users\junio\Desktop\aviutl110\exe_files
+[debug]: l-smash::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\l-smash
+[debug]:   searchOption:          *.exe
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\exe_files\
+[debug]:   revPrefix:             _
+[debug]:   revStr:                r1476
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: l-smash::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\l-smash\boxdumper.exe -> C:\Users\junio\Desktop\aviutl110\exe_files\boxdumper.exe, overwrite=True
+[info ]: exe_files\boxdumper.exe
+[debug]: l-smash::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\l-smash\muxer.exe -> C:\Users\junio\Desktop\aviutl110\exe_files\muxer.exe, overwrite=True
+[info ]: exe_files\muxer.exe
+[debug]: l-smash::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\l-smash\remuxer.exe -> C:\Users\junio\Desktop\aviutl110\exe_files\remuxer.exe, overwrite=True
+[info ]: exe_files\remuxer.exe
+[debug]: l-smash::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\l-smash\timelineeditor.exe -> C:\Users\junio\Desktop\aviutl110\exe_files\timelineeditor.exe, overwrite=True
+[info ]: exe_files\timelineeditor.exe
+[debug]: l-smash::install():install_process()True
+[debug]: install():installer->install() [l-smash]: OK
+[debug]: auo::install_process():exeDir: C:\Users\junio\Desktop\aviutl110\exe_files
+[debug]: auo::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo
+[debug]:   searchOption:          *.auo
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: False
+[debug]: auo::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx.auo -> C:\Users\junio\Desktop\aviutl110\x264guiEx.auo, overwrite=True
+[info ]: x264guiEx.auo
+[debug]: auo::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\
+[debug]:   searchOption:          *.dll
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                64.dll
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: False
+[debug]: auo::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]:   searchOption:          msvc*.dll
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                64.dll
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: False
+[debug]: auo::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup
+[debug]:   searchOption:          amf*.dll
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                64.dll
+[debug]:   ignore_dir_struct:     True
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: False
+[debug]: auo::install():install_process()True
+[debug]: install():installer->install() [auo]: OK
+[debug]: ini::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo
+[debug]:   searchOption:          *.ini
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: ini::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx.ini -> C:\Users\junio\Desktop\aviutl110\x264guiEx.ini, overwrite=True
+[info ]: x264guiEx.ini
+[debug]: ini::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg
+[debug]:   searchOption:          *.ini
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: ini::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\Bluray
+[debug]:   searchOption:          *.ini
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\Bluray\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: ini::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\iPhone iPod iPad
+[debug]:   searchOption:          *.ini
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\iPhone iPod iPad\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: ini::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\ニコ動 (く) 2018
+[debug]:   searchOption:          *.ini
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\ニコ動 (く) 2018\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: ini::install():install_process()True
+[debug]: install():installer->install() [ini]: OK
+[debug]: stg::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo
+[debug]:   searchOption:          *.stg
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: stg::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg
+[debug]:   searchOption:          *.stg
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: stg::install_dir():    Directory::CreateDirectory(): C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\PS3.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\PS3.stg, overwrite=True
+[info ]: x264guiEx_stg\PS3.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\PSP.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\PSP.stg, overwrite=True
+[info ]: x264guiEx_stg\PSP.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\twitter.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\twitter.stg, overwrite=True
+[info ]: x264guiEx_stg\twitter.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\Xbox 360.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\Xbox 360.stg, overwrite=True
+[info ]: x264guiEx_stg\Xbox 360.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\youtube.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\youtube.stg, overwrite=True
+[info ]: x264guiEx_stg\youtube.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\アニメ (高圧縮).stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\アニメ (高圧縮).stg, overwrite=True
+[info ]: x264guiEx_stg\アニメ (高圧縮).stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\アニメ (高画質).stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\アニメ (高画質).stg, overwrite=True
+[info ]: x264guiEx_stg\アニメ (高画質).stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\バランス.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\バランス.stg, overwrite=True
+[info ]: x264guiEx_stg\バランス.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\高画質.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\高画質.stg, overwrite=True
+[info ]: x264guiEx_stg\高画質.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\高速.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\高速.stg, overwrite=True
+[info ]: x264guiEx_stg\高速.stg
+[debug]: stg::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\Bluray
+[debug]:   searchOption:          *.stg
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\Bluray\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: stg::install_dir():    Directory::CreateDirectory(): C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\Bluray\
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\Bluray\Bluray (tff).stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\Bluray\Bluray (tff).stg, overwrite=True
+[info ]: x264guiEx_stg\Bluray\Bluray (tff).stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\Bluray\Bluray.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\Bluray\Bluray.stg, overwrite=True
+[info ]: x264guiEx_stg\Bluray\Bluray.stg
+[debug]: stg::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\iPhone iPod iPad
+[debug]:   searchOption:          *.stg
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\iPhone iPod iPad\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: stg::install_dir():    Directory::CreateDirectory(): C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\iPhone iPod iPad\
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\iPhone iPod iPad\iPhone3G, iPodtouch2-3.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\iPhone iPod iPad\iPhone3G, iPodtouch2-3.stg, overwrite=True
+[info ]: x264guiEx_stg\iPhone iPod iPad\iPhone3G, iPodtouch2-3.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\iPhone iPod iPad\iPhone4, iPad, iPodtouch4.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\iPhone iPod iPad\iPhone4, iPad, iPodtouch4.stg, overwrite=True
+[info ]: x264guiEx_stg\iPhone iPod iPad\iPhone4, iPad, iPodtouch4.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\iPhone iPod iPad\iPhone4S, iPad2.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\iPhone iPod iPad\iPhone4S, iPad2.stg, overwrite=True
+[info ]: x264guiEx_stg\iPhone iPod iPad\iPhone4S, iPad2.stg
+[debug]: stg::install_dir():
+[debug]:   sourceDirName:         C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\ニコ動 (く) 2018
+[debug]:   searchOption:          *.stg
+[debug]:   destDirName:           C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\ニコ動 (く) 2018\
+[debug]:   revPrefix:             
+[debug]:   revStr:                
+[debug]:   NotKey:                
+[debug]:   ignore_dir_struct:     False
+[debug]:   overwrite:             True
+[debug]:   enable_recursive_call: True
+[debug]: stg::install_dir():    Directory::CreateDirectory(): C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\ニコ動 (く) 2018\
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\ニコ動 (く) 2018\ニコ動  30分以下.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\ニコ動 (く) 2018\ニコ動  30分以下.stg, overwrite=True
+[info ]: x264guiEx_stg\ニコ動 (く) 2018\ニコ動  30分以下.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\ニコ動 (く) 2018\ニコ動 30分以上.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\ニコ動 (く) 2018\ニコ動 30分以上.stg, overwrite=True
+[info ]: x264guiEx_stg\ニコ動 (く) 2018\ニコ動 30分以上.stg
+[debug]: stg::install_file():    C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\auo\x264guiEx_stg\ニコ動 (く) 2018\ニコ動 音質重視.stg -> C:\Users\junio\Desktop\aviutl110\x264guiEx_stg\ニコ動 (く) 2018\ニコ動 音質重視.stg, overwrite=True
+[info ]: x264guiEx_stg\ニコ動 (く) 2018\ニコ動 音質重視.stg
+[debug]: stg::install():install_process()True
+[debug]: install():installer->install() [stg]: OK
+[debug]: adjust_conf():
+[debug]: abortRequired():no
+[debug]: adjust_conf():auo_path: C:\Users\junio\Desktop\aviutl110\x264guiEx.auo
+[debug]: x264::set_to_conf():
+[debug]: x264::check_install():[x264]: installed file count: 2
+[debug]: x264::check_install():[x264]:     C:\Users\junio\Desktop\aviutl110\exe_files\x264_2984_x64.exe
+[debug]: x264::check_install():[x264]:     C:\Users\junio\Desktop\aviutl110\exe_files\x264_2988_x64.exe
+[debug]: x264::set_to_conf():bInstalled: True, old path: 
+[debug]: x264::set_to_conf():path: C:\Users\junio\Desktop\aviutl110\exe_files\x264_2984_x64.exe
+[debug]: x264::convertToAviutlRelative():C:\Users\junio\Desktop\aviutl110\exe_files\x264_2984_x64.exe
+[debug]: x264::convertToAviutlRelative():aviutlDir: C:\Users\junio\Desktop\aviutl110
+[debug]: x264::convertToAviutlRelative():aviutlRelativePath: .\exe_files\x264_2984_x64.exe
+[debug]: x264::convertToAviutlRelative():result: .\exe_files\x264_2984_x64.exe
+[debug]: adjust_conf():installer->set_to_conf() [x264]: OK
+[debug]: qaac::check_install():[qaac]: installed file count: 16
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\qaac.exe
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\refalac.exe
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\libsoxconvolver.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\libsoxr.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\ASL.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\CoreAudioToolbox.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\CoreFoundation.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\icudt62.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\libdispatch.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\libicuin.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\libicuuc.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\msvcp100.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\msvcp140.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\msvcr100.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\objc.dll
+[debug]: qaac::check_install():[qaac]:     C:\Users\junio\Desktop\aviutl110\exe_files\vcruntime140.dll
+[debug]: qaac::set_to_conf():installed[0]: C:\Users\junio\Desktop\aviutl110\exe_files\qaac.exe
+[debug]: qaac::set_to_conf():exstg->s_aud[QAAC_IDX].fullpath: C:\Users\junio\Desktop\aviutl110\exe_files\qaac.exe
+[debug]: qaac::convertToAviutlRelative():C:\Users\junio\Desktop\aviutl110\exe_files\qaac.exe
+[debug]: qaac::convertToAviutlRelative():aviutlDir: C:\Users\junio\Desktop\aviutl110
+[debug]: qaac::convertToAviutlRelative():aviutlRelativePath: .\exe_files\qaac.exe
+[debug]: qaac::convertToAviutlRelative():result: .\exe_files\qaac.exe
+[debug]: qaac::check_install():[refalac]: installed file count: 16
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\qaac.exe
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\refalac.exe
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\libsoxconvolver.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\libsoxr.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\ASL.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\CoreAudioToolbox.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\CoreFoundation.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\icudt62.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\libdispatch.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\libicuin.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\libicuuc.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\msvcp100.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\msvcp140.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\msvcr100.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\objc.dll
+[debug]: qaac::check_install():[refalac]:     C:\Users\junio\Desktop\aviutl110\exe_files\vcruntime140.dll
+[debug]: qaac::set_to_conf():installed[1]: C:\Users\junio\Desktop\aviutl110\exe_files\refalac.exe
+[debug]: qaac::set_to_conf():exstg->s_aud[REFALAC_IDX].fullpath: C:\Users\junio\Desktop\aviutl110\exe_files\refalac.exe
+[debug]: qaac::convertToAviutlRelative():C:\Users\junio\Desktop\aviutl110\exe_files\refalac.exe
+[debug]: qaac::convertToAviutlRelative():aviutlDir: C:\Users\junio\Desktop\aviutl110
+[debug]: qaac::convertToAviutlRelative():aviutlRelativePath: .\exe_files\refalac.exe
+[debug]: qaac::convertToAviutlRelative():result: .\exe_files\refalac.exe
+[debug]: adjust_conf():installer->set_to_conf() [qaac]: OK
+[debug]: adjust_conf():installer->set_to_conf() [appledll]: OK
+[debug]: l-smash::set_to_conf():
+[debug]: l-smash::set_to_conf():current[0]: 
+[debug]: l-smash::set_to_conf():current[1]: 
+[debug]: l-smash::set_to_conf():current[2]: 
+[debug]: l-smash::set_to_conf():installed[0]: C:\Users\junio\Desktop\aviutl110\exe_files\boxdumper.exe
+[debug]: l-smash::set_to_conf():installed[1]: C:\Users\junio\Desktop\aviutl110\exe_files\muxer.exe
+[debug]: l-smash::set_to_conf():installed[2]: C:\Users\junio\Desktop\aviutl110\exe_files\remuxer.exe
+[debug]: l-smash::set_to_conf():installed[3]: C:\Users\junio\Desktop\aviutl110\exe_files\timelineeditor.exe
+[debug]: l-smash::check_install():[L-SMASH muxer]: installed file count: 4
+[debug]: l-smash::check_install():[L-SMASH muxer]:     C:\Users\junio\Desktop\aviutl110\exe_files\boxdumper.exe
+[debug]: l-smash::check_install():[L-SMASH muxer]:     C:\Users\junio\Desktop\aviutl110\exe_files\muxer.exe
+[debug]: l-smash::check_install():[L-SMASH muxer]:     C:\Users\junio\Desktop\aviutl110\exe_files\remuxer.exe
+[debug]: l-smash::check_install():[L-SMASH muxer]:     C:\Users\junio\Desktop\aviutl110\exe_files\timelineeditor.exe
+[debug]: l-smash::set_to_conf():bInstalled: True
+[debug]: l-smash::convertToAviutlRelative():C:\Users\junio\Desktop\aviutl110\exe_files\remuxer.exe
+[debug]: l-smash::convertToAviutlRelative():aviutlDir: C:\Users\junio\Desktop\aviutl110
+[debug]: l-smash::convertToAviutlRelative():aviutlRelativePath: .\exe_files\remuxer.exe
+[debug]: l-smash::convertToAviutlRelative():result: .\exe_files\remuxer.exe
+[debug]: l-smash::convertToAviutlRelative():C:\Users\junio\Desktop\aviutl110\exe_files\muxer.exe
+[debug]: l-smash::convertToAviutlRelative():aviutlDir: C:\Users\junio\Desktop\aviutl110
+[debug]: l-smash::convertToAviutlRelative():aviutlRelativePath: .\exe_files\muxer.exe
+[debug]: l-smash::convertToAviutlRelative():result: .\exe_files\muxer.exe
+[debug]: l-smash::convertToAviutlRelative():C:\Users\junio\Desktop\aviutl110\exe_files\timelineeditor.exe
+[debug]: l-smash::convertToAviutlRelative():aviutlDir: C:\Users\junio\Desktop\aviutl110
+[debug]: l-smash::convertToAviutlRelative():aviutlRelativePath: .\exe_files\timelineeditor.exe
+[debug]: l-smash::convertToAviutlRelative():result: .\exe_files\timelineeditor.exe
+[debug]: adjust_conf():installer->set_to_conf() [l-smash]: OK
+[debug]: auo::set_to_conf():
+[debug]: adjust_conf():installer->set_to_conf() [auo]: OK
+[debug]: adjust_conf():installer->set_to_conf() [ini]: OK
+[debug]: stg::convertToAviutlRelative():C:\Users\junio\Desktop\aviutl110\x264guiEx_stg
+[debug]: stg::convertToAviutlRelative():aviutlDir: C:\Users\junio\Desktop\aviutl110
+[debug]: stg::convertToAviutlRelative():aviutlRelativePath: .\x264guiEx_stg
+[debug]: stg::convertToAviutlRelative():result: .\x264guiEx_stg
+[debug]: adjust_conf():installer->set_to_conf() [stg]: OK
+[debug]: adjust_conf():installer->set_to_conf() [overall]: OK
+[debug]: install():adjust_conf(): OK
+[debug]: install():install_result [overall]: OK
+[debug]: x264::clean():
+[debug]: x264::clean():File::Delete(): x264_r2988.zip
+[debug]: x264::clean():Directory::Delete(): C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\x264
+[debug]: qaac::clean():File::Delete: qaac_2.68.zip
+[debug]: qaac::clean():File::Delete: iTunesSetup.exe
+[debug]: qaac::clean():File::Delete: makeportable.zip
+[debug]: qaac::clean():Directory::Delete: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\qaac
+[debug]: qaac::clean():Directory::Delete: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable\QTfiles
+[debug]: qaac::clean():Directory::Delete: C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\makeportable
+[debug]: appledll::clean():
+[debug]: l-smash::clean():
+[debug]: l-smash::clean():File::Delete(): l-smash r1476.zip
+[debug]: l-smash::clean():Directory::Delete(): C:\Users\junio\Desktop\x264guiEx_2.63\x264guiEx_2.63\setup\l-smash
+[debug]: auo::clean():
+[debug]: ini::clean():
+[debug]: stg::clean():
+[debug]: abortRequired():no
+[debug]: install():nInstallResult: OK
+[info ]: 
+[info ]: x264guiEx.auoのインストールが完了しました。
